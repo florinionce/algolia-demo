@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem "haml-rails", "~> 1.0"
 gem 'bootstrap-generators', '~> 3.3.4'
+gem 'faker', :git => 'git://github.com/stympy/faker.git', :branch => 'master'
 
 
 group :development, :test do
