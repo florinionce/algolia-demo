@@ -34,9 +34,13 @@ gem 'bootstrap-generators', '~> 3.3.4'
 gem 'faker', :git => 'git://github.com/stympy/faker.git', :branch => 'master'
 
 
+gem "algoliasearch-rails"
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'dotenv-rails'
 end
 
 group :development do

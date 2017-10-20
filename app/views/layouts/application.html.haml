@@ -24,7 +24,8 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          = link_to "Project name", "#", class: "navbar-brand"
+          = link_to  "/", class: "navbar-brand" do
+            = image_tag 'algolia_logo.svg'
         #navbar.collapse.navbar-collapse
           %ul.nav.navbar-nav
             %li.active
@@ -41,3 +42,5 @@
             %span.sr-only Close
           = msg
       = yield
+    %script{:src => "https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"}
+    %script{:src => "https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"}
