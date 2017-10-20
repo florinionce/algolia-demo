@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Demo app of the [Algolia Search](https://www.algolia.com/) using Ruby on Rails
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![Demo](https://cl.ly/1M27313u2I37/Screen%20Recording%202017-10-20%20at%2005.39%20PM.gif)
